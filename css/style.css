@@ -1,0 +1,216 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{font-family: 'Poppins', sans-serif;}
+.header{
+	width: 100%;
+	border-bottom: 2px solid #eef0f3;
+
+}
+
+
+.container{
+	width: 1140px;
+	margin: auto;
+}
+
+.menu a  {
+	text-decoration: none;
+}
+
+.menu{
+	margin-top: 16px;
+}
+
+.nav-bar{
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 20px;
+	font-weight: 300;
+	font-size: 15px;
+}
+.menu{
+
+}
+
+/*banner style start*/
+
+.heading h1{
+	color: #0f2656;
+	font-weight: 600;
+	font-size: 40px;
+	text-align: center;
+}
+
+.heading span{
+	color:#008aff ;
+}
+
+.para p {
+	color: #0f2656;
+	font-size: 15px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.banner-image{
+
+	text-align: center;
+}
+/*banner style end*/
+
+
+/*banner section 2 style start*/
+
+.banner2{
+
+	display: flex;
+	flex-basis: 50%;
+	justify-content: center;
+	margin-bottom: 70px;
+}
+
+.banner2-left{
+
+	margin-right: 20px;
+	text-align: right;
+	font-weight: 300;
+}
+
+.banner2-left p{
+	color: #0f2656;
+	font-size: 15px;
+}
+
+.banner2-left h1{
+	color: #f15767;;
+	font-size: 40px;
+	font-weight: 500;
+}
+
+.banner-2right h1{
+
+	font-weight: 600;
+	font-size: 40px;
+	color: #0f2656;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*banner section 2 style end*/
+
+
+
+
+
+
+/*grid section style start*/
+
+.service-content{
+	width: 100%;
+	margin-bottom: 40px;
+}
+.service-menu {
+
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-column-gap: 30px;
+
+}
+
+.s-item1{
+
+	background-color: #fdebed;
+	padding: 40px 20px;
+	
+}
+.s-item1 p {
+	font-weight: 300;
+	font-size: 15px;
+
+}
+.s-item1 h3{
+	font-weight: 500;
+}
+
+.s-item2{
+
+	background-color: #ebf9f4;
+	padding: 40px 20px;
+	
+}
+.s-item2 p {
+	font-weight: 300;
+	font-size: 15px;
+
+}
+.s-item2 h3{
+	font-weight: 500;
+}
+
+
+.s-item3{
+
+	background-color: #fff7e8;
+	padding: 40px 20px;
+	
+}
+.s-item3 p {
+	font-weight: 300;
+	font-size: 15px;
+
+}
+.s-item3 h3{
+	font-weight: 500;
+}
+.service-menu{
+
+	margin-bottom:70px ;
+}
+
+
+
+
+/*grid section style end*/
+
+
+
+
+
+
+/*footer section style start*/
+
+.footer{
+	background-color: #008aff;
+	text-align: center;
+	padding-top: 15px;	
+	padding-bottom: 15px;
+	word-spacing: 4px;
+}
+
+.footer p {
+	font-size: 10px;
+	tex
+	font-weight: 400;
+	color: white;
+
+}
+
+
+
+/*footer section style end*/
